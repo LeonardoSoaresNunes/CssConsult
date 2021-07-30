@@ -1,0 +1,100 @@
+/*Documento CSS*/
+/*Para chamar id usamos (#)   jogo da velha */
+/*Para chamar uma classe usamos (.)   ponto  */
+body{margin: 10;
+	padding: 10;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+	background-color: #1E90FF;
+	background-image: url(12.jpg);
+
+}
+h1,h2 {margin: px;
+	padding: 4px;
+	color:blue;
+}
+.menu{
+list-style:none; 
+border:1px solid #c0c0c0; 
+float:left; 
+}
+
+.menu li{
+position:relative; 
+float:left; 
+border-right:1px solid #c0c0c0; 
+}
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+ 
+.menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+}
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+} 
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:150px;
+}
+a{
+	font-family: arial. helvetica, sans-serif;
+	font-size: 14px;
+	color: green;
+	text-decoration: underline;
+}
+a:hover{
+	color: blue;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+/*a:active{
+	color: blue;
+	font-size: 18px;
+	font-weight: bold;
+
+}*/
+#menu{
+	margin: 0;
+	padding: 0;
+	font-size: 8;
+	display: block;
+	font-size: 18;
+	color: red;
+	text-decoration: none;
+}
+.nav {
+	margin: 0;
+	padding: 0;
+	font-size: 8;
+	display: block;
+	font-size: 10;
+
+	background-color: black;
+	list-style: none;
+	text-decoration: none;
+	float: center;
+
+}
+.class{
+
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	border: 2px solid #000000;
+
+
+
+
+}

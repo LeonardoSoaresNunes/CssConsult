@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url(12.jpg)
+
+}
+
+*{
+    margin: 0px;
+    padding: 0;
+    
+}
+.menu{
+	background-color: green;
+	
+	width: 1000px;
+	height: 50px;
+    
+   
+}
+.menu ul  {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+	margin: auto;
+	list-style-type: /*none*/;
+	font-size: 20px;
+}
+.menu ul li{
+	
+	float: left;
+	position: relative;
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	float: left;
+	color: white;
+	display: block;
+	width: auto;
+	line-height: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+.menu ul li a:hover{
+	background: rgb(17, 211, 17);
+	color:rgb(15, 255, 15);
+	border-bottom:1px solid;
+     
+
+}
+.stretch {
+	align-content: stretch;
+}
+
+.flex-start {
+	align-content: flex-start;
+}
+
+.flex-end {
+	align-content: flex-end;
+}
+
+.center {
+	align-content: center;
+}
+
+.space-between {
+	align-content: space-between;
+}
+
+.space-around {
+	align-content: space-around;
+}
+
+/* Flex Container */
+.container {
+	max-width: 420px;
+	height: 300px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+	flex-wrap: wrap;
+}
+/* Flex Item */
+.item {
+	flex: 1;
+	margin: 5px;
+	padding: 0 10px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+}
+/*.menu a {
+    margin: 8px;
+    padding: 10px;
+    
+    text-decoration: none;
+    list-style-type: none;
+    border: 8px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 50px;
+  
+	}
+	
+	/*<!--
+		body {
+			padding:0px;
+			margin:0px;
+		}
+ 
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:80% Tahoma;
+		}
+ 
+		#menu ul li { display: inline; }
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float:left;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}
+	-->*/

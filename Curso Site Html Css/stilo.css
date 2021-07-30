@@ -1,0 +1,14 @@
+<!---body{background: rgb(4, 19, 24);}-->
+# {font-size: 14px; padding: 0px; margin: 0px;}
+h4{color: purple;}
+h3{color: green;font-size: 20px;}
+h5{color: red; font-size: 40px;}
+<!---body{background-image: url("1.jpg");}-->
+.minhaclasse{width: 500px;height: 200px;background: black}
+.texto{ font-size: 20px; line-height:1,5px; text-align: justify;color: blue;text-indent: 5px;text-transform:uppercase;}
+.leo{font-size: 40px;line-height: 1,5px;text-align: justify;color: blueviolet;}
+a{font-size: 20px;text-decoration:none;color: crimson; }
+a:hover{color: darkgoldenrod;text-decoration: underline;}
+ul{color: darkseagreen;margin: 100px;}
+ul li{list-style: none;display: inline;}
+ol{}

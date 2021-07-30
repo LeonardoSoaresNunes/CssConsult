@@ -1,0 +1,14 @@
+/*{margin: o;padding: 0;}
+h1{color: coral;font-size: 50px;}
+p{color: black;font-size: 40px;}
+/*
+h1{color: blue;font-size: 60px;font-family: tahoma;}
+*/
+/*
+input[type="text"]{width: 200px;background-color:purple;height:35px;border: none;}
+input[type="email"]{width: 200px;background-color:gray;height: 35px;border: none;}
+input[type="submit"]{width: 50px;background-color:red;height:35px;border: none;cursor: pointer;}*/
+/*Agrupamento de codigo para nao repetir*/
+h1,h2,p{color: red;text-align: center;}
+/*h2{color: red;text-align: center;}
+p{color: red;text-align: center;}*/
